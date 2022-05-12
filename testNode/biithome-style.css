@@ -1,0 +1,195 @@
+@font-face{
+    font-family: 'vazir-FD';
+    src: url(./webfonts/Vazirmatn-Medium.woff2);
+}
+* {
+    font-family: 'vazir-FD';
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   a {
+    color: white;
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0 0 0 ;
+    color: #fff;
+    position: fixed;
+    direction: rtl;
+    text-align: right;
+    z-index: 100;
+    background-image: linear-gradient(90deg,#9b5cff,#3d3068);
+   }
+   .nav-links {
+       display: flex;
+       flex-direction: row;
+       color: #fff;
+   }
+   .logo {
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+   }
+   .menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 500px;
+    gap: 30px;
+    font-size: 1rem;
+   }
+   .menu-li{
+       display: inline-block;
+       width: max-content;
+   }
+   .button{
+    gap: 8px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 200px;
+    }
+    button.signin{
+        width: 150px;
+        height: 48px;
+        border-radius: 10px;
+        background-color: transparent;
+        transition: 0.3s;
+        color: white;
+        font-size: large;
+        border: 1px solid rgb(184, 178, 178);
+    
+    }
+    button.create-account{
+        width: 150px;
+        height: 48px;
+        border-radius: 10px;
+        background-color:aqua;
+        color: white;
+        font-size: large;
+        border: 1px solid aqua;
+        transition: 0.3s;
+    }
+    #nav-btn-mobile{
+        display: none;
+    }
+    button:hover{
+        background-color: mediumseagreen;
+    }
+    
+    .head{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(90deg,#9b5cff,#3d3068);
+        padding-top: 130px; 
+        width: 100%;
+        height: 100%;
+        padding-bottom: 48px;
+    }
+    .image{ 
+        min-width:300px;
+        margin:0 80px;      
+        display: block;
+        width: 100%;
+        height: 350px;
+        size: 50%;
+    }
+    .image-size{
+        width: auto;
+        height: 100%;
+        margin-left: 16px;
+        padding: 80px;
+    }
+    .pragraph-size{
+        margin-right: 16px;
+        width: 50%;
+        height: 100%;
+    }
+    .pragraph{
+        display:block;
+        margin-top: 32px;
+        width: 100%;
+        padding: 8px 24px;
+        height: 100%;
+        border: 3px solid aqua;
+        min-width: 70px;
+        }
+    .first-line{
+    font-size: 21px;
+    color: white;
+    display: block;
+    line-height: 48px;
+    }
+    .second-line{
+    font-size: 37px;
+    color: white;
+    display: inline-block;
+    }
+    
+    .start-button{
+    float: left;
+    margin-top: 5px;
+    }
+    button.investment{
+        margin-top: 11px;
+        width: 240px;
+        height: 50px;
+        border-radius: 10px;
+        background-color:aqua;
+        color: white;
+        font-size: x-large;
+        border: 1px solid aqua;
+        transition: 0.3s;
+    }
+    button:hover{
+        background-color: mediumseagreen;
+    }
+    .measurement{
+        background-color: rgb(228, 235, 241);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        justify-content: space-around;
+        z-index: 2;
+    }
+    .block {
+        border-right:3px solid aqua ;
+        display: inline-block;
+        padding: 0 0 0 24px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 16px;
+        height: 100%;
+       }
+    .noborder{
+        border-right: none;
+        padding: 0 80px 0 80px;
+    }
+    .padding-conf{
+        padding: 0 80px 0 80px;
+    }
+    .ablock{
+        line-height: 48px;
+        text-align: center;
+        color: black;
+    }
+   
